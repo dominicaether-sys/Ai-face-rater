@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: #f0f0f0;
+  transition: background 0.5s;
+  text-align: center;
+}
+
+video {
+  transform: scaleX(-1);
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#score {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
